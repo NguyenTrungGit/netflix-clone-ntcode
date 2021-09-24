@@ -1,0 +1,37 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 5rem;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: 0.4s;
+}
+
+.nav__show {
+  /* background-color: #111; */
+  background-image: linear-gradient(
+    black,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.85),
+    transparent
+  );
+}
+
+.nav__logo {
+  position: fixed;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.nav__brand {
+  left: 1.25rem;
+  top: 1.25rem;
+  width: 5rem;
+}
+
+.nav__avatar {
+  right: 1.25rem;
+  top: 1.25rem;
+  width: 1.5rem;
+}
